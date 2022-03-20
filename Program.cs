@@ -1,4 +1,4 @@
-﻿namespace Main.ProjectPooSharp
+﻿namespace Main
 {
   
 }
