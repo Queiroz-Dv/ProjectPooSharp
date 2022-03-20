@@ -1,3 +1,5 @@
+using Main.SharedContext;
+
 namespace Main.ContentContext
 {
   public class Module : Base

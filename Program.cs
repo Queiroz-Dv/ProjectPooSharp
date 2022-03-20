@@ -13,6 +13,7 @@ foreach (var article in articles)
   Console.WriteLine(article.Url);
 }
 
+//Lista de Cursos
 var courses = new List<Course>();
 var courseCSharp = new Course("Fundamentos de C#", "fundamentos-csharp");
 var courseAsp = new Course("Fundamentos de ASP Core", "fundamentos-aspcore");
@@ -22,6 +23,7 @@ courses.Add(courseCSharp);
 courses.Add(courseAsp);
 courses.Add(courseEF);
 
+// Lista de Carreiras
 var careers = new List<Career>();
 var careerDotnet = new Career("Desenvolvedor .NET", "desenvolvedor-dotnet");
 var careerItem2 = new CareerItem(2, "Aprenda ASP NET", "", courseAsp);
@@ -34,6 +36,7 @@ careerDotnet.Items.Add(careerItem1);
 
 careers.Add(careerDotnet);
 
+// Apresentando dados para o usuário
 foreach (var career in careers)
 {
   Console.WriteLine(career.Title);
